@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34843" started-at="2021-02-08T17:55:07 IST" finished-at="2021-02-08T17:55:42 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34843" started-at="2021-02-08T17:55:07 IST" finished-at="2021-02-08T17:55:42 IST">
+      <class name="Test.ValidateTemperature">
+        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:Test.ValidateTemperature@614ddd49]" name="initiateBrowser" is-config="true" duration-ms="11256" started-at="2021-02-08T17:55:07 IST" finished-at="2021-02-08T17:55:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="validateTemperatureTitle()[pri:1, instance:Test.ValidateTemperature@614ddd49]" name="validateTemperatureTitle" duration-ms="13154" started-at="2021-02-08T17:55:18 IST" finished-at="2021-02-08T17:55:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTemperatureTitle -->
+        <test-method status="PASS" signature="validateCapturedImage()[pri:2, instance:Test.ValidateTemperature@614ddd49]" name="validateCapturedImage" duration-ms="2462" started-at="2021-02-08T17:55:31 IST" finished-at="2021-02-08T17:55:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCapturedImage -->
+        <test-method status="PASS" signature="validateDefaultTemeratureUnit()[pri:3, instance:Test.ValidateTemperature@614ddd49]" name="validateDefaultTemeratureUnit" duration-ms="273" started-at="2021-02-08T17:55:34 IST" finished-at="2021-02-08T17:55:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDefaultTemeratureUnit -->
+        <test-method status="PASS" signature="v1()[pri:4, instance:Test.ValidateTemperature@614ddd49]" name="v1" duration-ms="2091" started-at="2021-02-08T17:55:34 IST" finished-at="2021-02-08T17:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- v1 -->
+        <test-method status="PASS" signature="validateSettingEmailAlram()[pri:5, instance:Test.ValidateTemperature@614ddd49]" name="validateSettingEmailAlram" duration-ms="2398" started-at="2021-02-08T17:55:36 IST" finished-at="2021-02-08T17:55:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSettingEmailAlram -->
+        <test-method status="PASS" signature="validateTemperatureDataDownload()[pri:6, instance:Test.ValidateTemperature@614ddd49]" name="validateTemperatureDataDownload" duration-ms="3138" started-at="2021-02-08T17:55:38 IST" finished-at="2021-02-08T17:55:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTemperatureDataDownload -->
+      </class> <!-- Test.ValidateTemperature -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
