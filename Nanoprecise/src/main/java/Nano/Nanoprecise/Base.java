@@ -1,10 +1,14 @@
 package Nano.Nanoprecise;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -43,5 +47,12 @@ public class Base {
 		driver.close();
 	}
 
+	public void getScreenshot(String testName,WebDriver driver) throws IOException
+	{
+		TakesScreenshot screenshot = (TakesScreenshot)driver;
+		File src = screenshot.getScreenshotAs(OutputType.FILE);
+		String dest = System.getProperty("user.dir")+"\\reporter\\"+testName+".png";
+		FileUtils.copyFile(src, new File(dest));
+	}
 
 }
